@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Рабочая директория</title>
+</head>
+<body>
+    <h1>Рабочая директория</h1>
+    <p>Текущее время: {{ path }}</p>
+    <ul>
+        {% for file in files %}
+        <li>{{ file }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
